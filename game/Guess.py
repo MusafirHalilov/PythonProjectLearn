@@ -15,7 +15,7 @@ for guessesTaken in range(6):
     guess = int(guess)
 
     if guess < number:
-        print('Твое число слишком маленькое.') # Восемь пробелов перед именем функции print
+        print('Твое число слишком маленькое.')
 
     if guess > number:
         print('Твое число слишком большое.')
