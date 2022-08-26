@@ -10,7 +10,7 @@ number = random.randint(1, 20)
 print('Что ж, ' + myName + ', я загадываю число от 1 до 20.')
 
 for guessesTaken in range(6):
-    print('Попробуй угадать.') # Четыре пробела перед именем функции print.
+    print('Попробуй угадать.')
     guess = input()
     guess = int(guess)
 
